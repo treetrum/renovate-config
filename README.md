@@ -14,3 +14,8 @@ In each consumer repository, set the Renovate config to:
 ```
 
 Renovate loads `default.json` from this repository automatically.
+
+## Notable defaults
+
+- npm dependencies are pinned by default.
+- Non-npm dependencies keep Renovate's manager defaults for range behavior.

@@ -3,8 +3,11 @@
   "extends": ["config:recommended", ":semanticCommitTypeAll(deps)", ":semanticCommitScopeDisabled"],
   "semanticCommits": "enabled",
   "labels": ["dependencies"],
-  "rangeStrategy": "pin",
   "packageRules": [
+    {
+      "matchManagers": ["npm"],
+      "rangeStrategy": "pin"
+    },
     {
       "matchUpdateTypes": ["patch"],
       "automerge": true
