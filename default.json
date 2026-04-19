@@ -3,6 +3,7 @@
   "extends": ["config:recommended", ":semanticCommitTypeAll(deps)", ":semanticCommitScopeDisabled"],
   "semanticCommits": "enabled",
   "labels": ["dependencies"],
+  "reviewers": ["@treetrum"],
   "packageRules": [
     {
       "matchManagers": ["npm"],
@@ -16,10 +17,6 @@
     {
       "matchPackageNames": ["oxfmt", "oxlint", "oxlint-tsgolint"],
       "automerge": true
-    },
-    {
-      "matchUpdateTypes": ["minor", "major"],
-      "reviewers": ["@treetrum"]
     }
   ]
 }
