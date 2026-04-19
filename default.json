@@ -3,6 +3,7 @@
   "extends": ["config:recommended", ":semanticCommitTypeAll(deps)", ":semanticCommitScopeDisabled"],
   "semanticCommits": "enabled",
   "labels": ["dependencies"],
+  "rangeStrategy": "pin",
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
