@@ -6,6 +6,7 @@
   "packageRules": [
     {
       "matchManagers": ["npm"],
+      "matchDepTypes": ["dependencies", "devDependencies"],
       "rangeStrategy": "pin"
     },
     {
