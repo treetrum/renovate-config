@@ -11,11 +11,13 @@
       "rangeStrategy": "pin"
     },
     {
-      "matchUpdateTypes": ["patch"],
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor"],
       "automerge": true
     },
     {
-      "matchPackageNames": ["oxfmt", "oxlint", "oxlint-tsgolint"],
+      "matchUpdateTypes": ["patch"],
       "automerge": true
     }
   ]

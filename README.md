@@ -18,4 +18,5 @@ Renovate loads `default.json` from this repository automatically.
 ## Notable defaults
 
 - npm dependencies are pinned by default.
+- npm `devDependencies` patch/minor updates are set to automerge after required status checks pass.
 - Non-npm dependencies keep Renovate's manager defaults for range behavior.
