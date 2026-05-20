@@ -22,4 +22,5 @@
 ## Editing/verification workflow
 
 - Make focused edits in `default.json`; avoid adding unrelated files or tooling unless explicitly requested.
+- Before completing a task that changes Renovate config, run `npx --yes --package renovate -- renovate-config-validator default.json` and confirm it passes.
 - If behavior changes, reflect it in `README.md` usage notes only when consumer-facing behavior changed.

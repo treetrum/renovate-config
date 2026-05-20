@@ -4,6 +4,7 @@
   "semanticCommits": "enabled",
   "labels": ["dependencies"],
   "reviewers": ["@treetrum"],
+  "minimumReleaseAge": "1 day",
   "packageRules": [
     {
       "matchManagers": ["npm"],
