@@ -3,13 +3,13 @@
   "extends": ["config:recommended"],
   "semanticCommits": "enabled",
   "labels": ["dependencies"],
-  "reviewers": ["@treetrum"],
   "minimumReleaseAge": "1 day",
   "packageRules": [
     {
       "matchManagers": ["npm"],
       "matchDepTypes": ["dependencies", "devDependencies"],
-      "rangeStrategy": "pin"
+      "rangeStrategy": "pin",
+      "reviewers": ["@treetrum"]
     },
     {
       "matchManagers": ["npm"],
@@ -25,6 +25,16 @@
       "groupName": "oxc monorepo",
       "matchDepNames": ["oxlint", "oxfmt", "oxlint-tsgolint"],
       "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "reviewers": ["@treetrum"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor"],
+      "reviewers": ["@treetrum"]
     }
   ]
 }
