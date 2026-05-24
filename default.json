@@ -22,7 +22,7 @@
       "automerge": true
     },
     {
-      "groupName": "Oxc",
+      "groupName": "oxc monorepo",
       "matchDepNames": ["oxlint", "oxfmt"],
       "automerge": true
     }
