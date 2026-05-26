@@ -18,6 +18,7 @@ Renovate loads `default.json` from this repository automatically.
 ## Notable defaults
 
 - npm dependencies are pinned by default.
-- npm `devDependencies` patch/minor updates are set to automerge after required status checks pass.
-- Non-npm dependencies keep Renovate's manager defaults for range behavior.
-- `@treetrum` is requested as reviewer on PRs that are not configured to automerge (major updates, npm dependency minor updates, and pin updates).
+- Baseline policy for all updates: no automerge and request `@treetrum` as reviewer.
+- Exceptions:
+  - npm `dependencies` patch updates are set to automerge after required status checks pass, with reviewer assignment skipped.
+  - npm `devDependencies` patch/minor updates are set to automerge after required status checks pass, with reviewer assignment skipped.

@@ -8,40 +8,26 @@
     {
       "matchManagers": ["npm"],
       "matchDepTypes": ["dependencies", "devDependencies"],
-      "rangeStrategy": "pin",
-      "reviewers": ["@treetrum"]
+      "rangeStrategy": "pin"
     },
     {
-      "matchManagers": ["npm"],
-      "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["minor"],
-      "automerge": true
-    },
-    {
-      "matchUpdateTypes": ["patch"],
-      "automerge": true
-    },
-    {
-      "groupName": "oxc monorepo",
-      "matchDepNames": ["oxlint", "oxfmt", "oxlint-tsgolint"],
-      "automerge": true
-    },
-    {
-      "matchUpdateTypes": ["major"],
+      "matchPackageNames": ["*"],
+      "automerge": false,
       "reviewers": ["@treetrum"]
     },
     {
       "matchManagers": ["npm"],
       "matchDepTypes": ["dependencies"],
-      "matchUpdateTypes": ["minor"],
-      "reviewers": ["@treetrum"]
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "reviewers": []
     },
     {
       "matchManagers": ["npm"],
-      "matchDepTypes": ["packageManager"],
-      "matchUpdateTypes": ["patch", "minor", "major"],
-      "automerge": false,
-      "reviewers": ["@treetrum"]
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true,
+      "reviewers": []
     }
   ]
 }
