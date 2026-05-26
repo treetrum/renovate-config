@@ -35,6 +35,13 @@
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["minor"],
       "reviewers": ["@treetrum"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["packageManager"],
+      "matchUpdateTypes": ["patch", "minor", "major"],
+      "automerge": false,
+      "reviewers": ["@treetrum"]
     }
   ]
 }
