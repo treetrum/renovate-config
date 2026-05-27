@@ -28,6 +28,12 @@
       "matchUpdateTypes": ["patch", "minor"],
       "automerge": true,
       "reviewers": []
+    },
+    {
+      "groupName": "oxc monorepo",
+      "matchPackageNames": ["oxlint", "oxfmt", "oxlint-tsgo"],
+      "automerge": true,
+      "reviewers": []
     }
   ]
 }
