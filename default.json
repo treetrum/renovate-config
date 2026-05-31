@@ -16,8 +16,6 @@
       "reviewers": ["@treetrum"]
     },
     {
-      "matchManagers": ["npm"],
-      "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["patch"],
       "automerge": true,
       "reviewers": []
