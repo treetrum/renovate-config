@@ -28,6 +28,12 @@
       "reviewers": []
     },
     {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["packageManager"],
+      "automerge": true,
+      "reviewers": []
+    },
+    {
       "groupName": "oxc monorepo",
       "matchPackageNames": ["oxlint", "oxfmt", "oxlint-tsgo"],
       "automerge": true,

@@ -22,3 +22,4 @@ Renovate loads `default.json` from this repository automatically.
 - Exceptions:
   - npm `dependencies` patch updates are set to automerge after required status checks pass, with reviewer assignment skipped.
   - npm `devDependencies` patch/minor updates are set to automerge after required status checks pass, with reviewer assignment skipped.
+  - pnpm package-manager updates are set to automerge after required status checks pass, with reviewer assignment skipped.
