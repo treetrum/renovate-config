@@ -18,8 +18,9 @@ Renovate loads `default.json` from this repository automatically.
 ## Notable defaults
 
 - npm dependencies are pinned by default.
+- Updates have a one-day minimum release age. Docker updates without release timestamps are allowed through instead of remaining pending indefinitely.
 - Baseline policy for all updates: no automerge and request `@treetrum` as reviewer.
 - Exceptions:
-  - npm `dependencies` patch updates are set to automerge after required status checks pass, with reviewer assignment skipped.
-  - npm `devDependencies` patch/minor updates are set to automerge after required status checks pass, with reviewer assignment skipped.
+  - All patch updates, including Docker and npm dependencies, are set to automerge after required status checks pass, with reviewer assignment skipped.
+  - npm `devDependencies` minor updates are set to automerge after required status checks pass, with reviewer assignment skipped.
   - pnpm package-manager updates are set to automerge after required status checks pass, with reviewer assignment skipped.

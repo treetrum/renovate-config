@@ -11,6 +11,10 @@
       "rangeStrategy": "pin"
     },
     {
+      "matchDatasources": ["docker"],
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
+    },
+    {
       "matchPackageNames": ["*"],
       "automerge": false,
       "reviewers": ["@treetrum"]
