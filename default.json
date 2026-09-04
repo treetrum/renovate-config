@@ -26,8 +26,7 @@
     },
     {
       "matchManagers": ["npm"],
-      "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["patch", "minor"],
+      "matchUpdateTypes": ["minor"],
       "automerge": true,
       "reviewers": []
     },
