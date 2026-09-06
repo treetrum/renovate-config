@@ -22,5 +22,5 @@ Renovate loads `default.json` from this repository automatically.
 - Baseline policy for all updates: no automerge and request `@treetrum` as reviewer.
 - Exceptions:
   - All patch updates, including Docker and npm dependencies, are set to automerge after required status checks pass, with reviewer assignment skipped.
-  - npm minor updates are set to automerge after required status checks pass, with reviewer assignment skipped.
+  - npm and Bun-managed minor updates are set to automerge after required status checks pass, with reviewer assignment skipped.
   - pnpm package-manager updates are set to automerge after required status checks pass, with reviewer assignment skipped.

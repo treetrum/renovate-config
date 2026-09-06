@@ -25,7 +25,7 @@
       "reviewers": []
     },
     {
-      "matchManagers": ["npm"],
+      "matchManagers": ["npm", "bun"],
       "matchUpdateTypes": ["minor"],
       "automerge": true,
       "reviewers": []
